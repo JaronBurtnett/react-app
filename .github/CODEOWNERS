@@ -1,0 +1,4 @@
+* @JaronBurtnett
+*.js @JaronBurtnett
+*.yml @JaronBurtnett
+/public/ @JaronBurtnett
