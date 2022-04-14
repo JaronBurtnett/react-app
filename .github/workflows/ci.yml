@@ -64,7 +64,7 @@ jobs:
         run: npx codecov
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      - name: Open Issue
+      - name: Open Issue On Failure
         if: failure() && github.event_name == 'pull_request'
         run: |
           "curl --request POST \
